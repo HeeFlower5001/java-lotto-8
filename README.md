@@ -28,7 +28,7 @@
   - [x] Lotto
     - 6개의 번호 오름차순 정렬
     
-  - [ ] LottoMachine
+  - [x] LottoMachine
     - 구입 금액에 맞게 로또 제공
     - 6개의 랜덤 번호 제공
   
