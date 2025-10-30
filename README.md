@@ -25,7 +25,7 @@
 
 ## To do list
 - [ ] 기능 구현에 필요한 Domain 작성
-  - [ ] Lotto
+  - [x] Lotto
     - 6개의 번호 오름차순 정렬
     
   - [ ] LottoMachine
