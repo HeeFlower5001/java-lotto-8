@@ -1,5 +1,6 @@
 package lotto.domain;
 
+import java.util.Arrays;
 import java.util.List;
 
 public class Lotto {
@@ -17,8 +18,31 @@ public class Lotto {
                 .toList();
     }
 
+    public Lotto(String input) {
+        this(parseString(input));
+    }
+
     public List<Integer> getNumbers() {
         return List.copyOf(numbers);
+    }
+
+    private static List<Integer> parseString(String input) {
+        if (input == null) {
+            throw new IllegalArgumentException("[ERROR] 입력이 null일 수 없습니다.");
+        }
+
+        try {
+            List<Integer> numbers = Arrays.stream(input.split(","))
+                    .map(String::trim)
+                    .filter(s -> !s.isEmpty())
+                    .map(Integer::parseInt)
+                    .toList();
+
+            return numbers;
+
+        } catch (NumberFormatException e) {
+            throw new IllegalArgumentException("[ERROR] 로또 번호는 정수여야 합니다.");
+        }
     }
 
     private void validate(List<Integer> numbers) {

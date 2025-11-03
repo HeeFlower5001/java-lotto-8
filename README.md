@@ -39,13 +39,13 @@
 - [x] Enum 작성
   -  [x] Rank
 
-- [ ] View 작성
-  - [ ] InputView
+- [x] View 작성
+  - [x] InputView
     - 구입 금액 입력
     - 당첨 번호 입력
     - 보너스 번호 입력
 
-  - [ ] OutputView
+  - [x] OutputView
     - 구매한 로또 한 개 번호 출력
     - 구매한 로또 전체 번호 출력
     - 당첨 통계 출력
