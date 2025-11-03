@@ -24,7 +24,7 @@
 - 모든 예외 상황은 '[ERROR]' 메시지로 표시하고, 잘못된 입력은 다시 받는다.
 
 ## To do list
-- [ ] 기능 구현에 필요한 Domain 작성
+- [x] 기능 구현에 필요한 Domain 작성
   - [x] Lotto
     - 6개의 번호 오름차순 정렬
     
@@ -32,12 +32,12 @@
     - 구입 금액에 맞게 로또 제공
     - 6개의 랜덤 번호 제공
   
-  - [ ] Calculator
+  - [x] Calculator
     - 수익률 계산
     - 번호 일치 개수
 
-- [ ] Enum 작성
-  -  [ ] Rank
+- [x] Enum 작성
+  -  [x] Rank
 
 - [ ] View 작성
   - [ ] InputView
