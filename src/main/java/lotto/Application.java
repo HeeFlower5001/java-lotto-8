@@ -28,6 +28,8 @@ public class Application {
 
                 return machine.issue();
 
+            } catch (NumberFormatException e) {
+                System.out.println("[ERROR] 숫자만 입력할 수 있습니다.");
             } catch (IllegalArgumentException e) {
                 System.out.println(e.getMessage());
             }
@@ -51,6 +53,8 @@ public class Application {
 
                 return new WinningNumbers(winningLotto, bonus);
 
+            } catch (NumberFormatException e) {
+                System.out.println("[ERROR] 숫자만 입력할 수 있습니다.");
             } catch (IllegalArgumentException e) {
                 System.out.println(e.getMessage());
             }

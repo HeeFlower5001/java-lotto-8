@@ -50,7 +50,9 @@
     - 구매한 로또 전체 번호 출력
     - 당첨 통계 출력
 
-- [ ] 테스트 코드 작성
-  - [ ] LottoTest
-  - [ ] CalculatorTest
-  - [ ] InputViewTest
+- [x] 테스트 코드 작성
+  - [x] LottoTest
+  - [x] CalculatorTest
+  - [x] RankTest
+  - [x] WinningNumbersTest
+  - [x] LottoMachineTest
